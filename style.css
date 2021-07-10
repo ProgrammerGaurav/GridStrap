@@ -5,8 +5,11 @@ body {
 code {
   font-family: "Inconsolata", monospace;
 }
+img {
+  width: 100%;
+}
 .row {
-  margin-top: 50px;
+  margin-top: 100px;
 }
 .title {
   font-size: 2.5em;
@@ -18,13 +21,15 @@ code {
   opacity: 0.5;
 }
 .box {
-  background-color: rgb(191, 194, 197);
+  background-color: #f8f8f8;
   padding: 10px;
-  margin: 10px;
   font-size: 1.5rem;
+  border: 1px solid rgba(39, 41, 43, 0.1);
 }
 
 .code {
   margin: 10px;
+  padding: 10px;
+  background-color: #f8f9fa;
   padding: 10px;
 }
